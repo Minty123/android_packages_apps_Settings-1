@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2015 The Pure Nexus Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<!-- Custom Settings -->    
+  <!-- Dashboard -->
+    <string name="header_category_custom">ROM-Steuerung</string>
+    <string name="supersu_title">SuperSU</string>
+    <string name="custom_settings_title">PureNexus Einstellungen</string>
+    <string name="bitsyko_layers">Layers Manager</string>
+  <!-- General strings -->
+    <string name="reset">Zurücksetzen</string>
+    <string name="add">Hinzufügen</string>
+    <string name="choose_app">App auswählen</string>
+    <!-- Notification/Battery lights -->
+    <string name="edit_light_settings">LED-Einstellungen anpassen</string>
+    <string name="pulse_speed_title">Pulsierlänge und -geschwindigkeit</string>
+    <string name="default_time">Normal</string>
+    <string name="custom_time">Benutzerdefiniert</string>
+    <string name="dialog_delete_title">Löschen</string>
+    <string name="dialog_delete_message">Gewählten Eintrag löschen?</string>
+    <string name="pulse_length_always_on">Immer an</string>
+    <string name="pulse_length_very_short">Sehr kurz</string>
+    <string name="pulse_length_short">Kurz</string>
+    <string name="pulse_length_normal">Normal</string>
+    <string name="pulse_length_long">Lang</string>
+    <string name="pulse_length_very_long">Sehr lang</string>
+    <string name="pulse_speed_very_fast">Sehr schnell</string>
+    <string name="pulse_speed_fast">Schnell</string>
+    <string name="pulse_speed_normal">Normal</string>
+    <string name="pulse_speed_slow">Langsam</string>
+    <string name="pulse_speed_very_slow">Sehr langsam</string>
+    <string name="battery_light_title">Akkulicht</string>
+    <string name="battery_low_pulse_title">Bei niedrigem Akku pulsieren</string>
+    <string name="battery_light_list_title">Farben</string>
+    <string name="battery_light_low_color_title">Wenig Akku</string>
+    <string name="battery_light_medium_color_title">Laden</string>
+    <string name="battery_light_full_color_title">Aufgeladen</string>
+    <string name="notification_light_title">Benachrichtigung</string>
+    <string name="notification_light_general_title">Allgemein</string>
+    <string name="notification_light_applist_title">Apps</string>
+    <string name="notification_light_phonelist_title">Telefon</string>
+    <string name="notification_light_use_custom">Eigene Werte verwenden</string>
+    <string name="notification_light_default_value">Standard</string>
+    <string name="notification_light_missed_call_title">Verpasster Anruf</string>
+    <string name="notification_light_voicemail_title">Sprachnachricht</string>
+
+<!-- Development Settings -->
+    <!-- Dev Options Enabled by Default -->
+    <string name="show_dev_already_enabled">Die Enwickleroptionen sind bereits aktiviert</string>
+    <!-- ADB debugging notifications -->
+    <string name="enable_adb_custom">Android Debugging</string>
+    <string name="enable_adb_summary_custom">Android Debug Bridge (ADB) Interface aktiveren</string>
+    <string name="adb_notify">ADB-Benachrichtigung</string>
+    <string name="adb_notify_summary">Eine Benachrichtigung bei aktiver ADB-Verbindung anzeigen</string>
+    <!-- Hostname setting -->
+    <string name="device_hostname">Hostname des Geräts</string>
+
+<!-- Device Info Settings -->
+    <!-- Nexus about -->
+    <string name="nexus_about">Über PureNexus</string>
+    <string name="nexus_about_summary">Informationen über ROM, Entwickler und Mitwirkende</string>
+    <string name="nexus_useful">Nützliche Links</string>
+    <string name="nexus_updates">Update-Benachrichtungen auf Pushbullet</string>
+    <string name="lead_dev">Hauptentwickler</string>
+    <string name="beans">BeansTown106</string>
+    <string name="beans_sum">Hauptverantwortlicher für PureNexus</string>
+    <string name="beans_twit">BeansTown auf Twitter</string>
+    <string name="nexus_gplus">PureNexus Google+ community</string>
+    <string name="donate">Für die Entwicklung spenden</string>
+    <string name="contribute">Mitwirkende</string>
+    <string name="devonte">Dwitherell</string>
+    <string name="devonte_sum">Coder/Tweaker</string>
+    <string name="dhack">Dhacker29</string>
+    <string name="dhack_sum">Basis für gApps</string>
+    <string name="daveya">DaveyAnnihalation</string>
+    <string name="wally">Wally3614</string>
+    <string name="gfx_sum">Grafiken &amp; Symbole</string>
+    <string name="surge">Surge1223</string>
+    <string name="bajasur">Bajasur83</string>
+    <string name="tweak_sum">Verschiedene Verbesserungen</string>
+    <!-- Nexus version -->
+    <string name="nexus_version">PureNexus-Version</string>
+    <string name="nexus_version_default">Unbekannt</string>
+    <!-- Build date -->
+    <string name="build_date">Build-Datum</string>
+    <string name="build_date_default">2014-01-01-0000</string>
+    <!-- Model Name -->
+    <string name="model_name">Modell</string>
+
+<!-- Display Settings -->
+    <!-- Font size sample text -->
+    <string name="font_size_sample">Schriftgröße</string>
+    <!-- Rotation Modes  -->
+    <string name="display_rotation_title">Display-Orientierung</string>
+    <string name="display_rotation_disabled">Aus</string>
+    <string name="display_rotation_unit">Grad</string>
+    <string name="display_lockscreen_rotation_title">Sperrbildschirm drehen</string>
+    <string name="display_rotation_category_title">Orientierungen</string>
+    <string name="display_rotation_0_title">0 Grad</string>
+    <string name="display_rotation_90_title">90 Grad</string>
+    <string name="display_rotation_180_title">180 Grad</string>
+    <string name="display_rotation_270_title">270 Grad</string>
+</resources>
